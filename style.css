@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    margin: 130px 150px 30px 150px
+}
+
+.title {
+
+    color: #315697;
+    margin-bottom: 40px;
+}
+
+.summary {
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+.profile {
+    padding: 40px;
+    border-right: 1px solid black;
+}
+
+.profile img {
+    border-radius: 100%;
+}
+
+.personalData {
+    padding: 0 20px 0 20px;
+    width: 100%;
+}
+
+.personalData table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.personalData table td {
+    padding: 2px 5px 2px 10px;
+    font-size: 15px;
+}
+
+.history {
+    margin: 50px 0 30px 0;
+}
+
+.subtitle {
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid black;
+}
+
+.history p {
+    font-size: 15px;
+    padding: 10px 0 13px 0;
+}
+
+.history ol {
+    margin-left: 50px;
+    text-indent: 10px;
+    line-height: 25px;
+}
+
+.bio p {
+    margin: 10px 0 13px 0;
+    font-size: 15px;
+    line-height: 22px;
+    font-style: oblique;
+}
+
+.videoFavorite {
+    margin: 30px 0 30px 0;
+}
+
+.videoFavorite table {
+margin-top: 10px;
+width: 100%;
+border-collapse: collapse;
+}
+
+.videoFavorite table td {
+    padding: 3px;
+    width: max-content;
+}
+
+.video-item {
+    width: 100%;
+    height: 100%;
+}
+
+
+.musicFavorite table {
+    width: 100%;
+    margin: 20px 0 10px 0;
+    border-collapse: collapse;
+}
+
+.musicFavorite table td {
+    padding: 5px;
+    width: 50%;
+    
+}
+
+.audio-item {
+    width: 100%;
+}
